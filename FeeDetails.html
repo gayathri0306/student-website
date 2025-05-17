@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <title>Fee Details</title>
+    <style>
+        .row{
+            background: linear-gradient(to top,white,bisque);
+        }
+        table{
+            line-height: 2em;
+        }
+        .Iyear{
+           background: linear-gradient(to top,white,lightpink);
+           
+        }
+        .IIyear{
+            background: linear-gradient(to top,white,lightblue);
+        }
+        .IIIyear{
+            background: linear-gradient(to top,white,lightsalmon);
+        }
+        .total{
+            background: linear-gradient(to top,white,rgb(78,124,176));
+        }
+        th{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 15px;
+        }
+        tr{
+            font-family: monospace;
+            font-size: 15px;
+        }
+        .content{
+            background: linear-gradient(to top,white,lightgreen);
+        }
+        h2{
+            font-family: sans-serif;
+            color: rgb(1, 1, 62);
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            background-color:#11114e;
+           position: sticky;
+            top:0px;
+            height: 10%;
+         }
+        ul{ 
+            display: flex;
+            flex-direction: row;
+            height: 10%;
+        }
+        li{
+            list-style: none;
+            margin-right: 80px;
+            font-size: 20px;
+            text-align: center;  
+          
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+   
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2 style="margin-left: 50px;margin-top:10px;color: white; font-family: sans-serif;">Student Information</h2>
+      <ul>
+        <li style="margin-left: 100px;"><a href="Basic_details.html">Basic  Details</a></li>
+        <li> <a href="FeeDetails.html">Fee  Details</a></li>
+        <li><a href="project1.html">Academinc  Performance</a></li>
+        <li><a href="uniforms.html">Issued  Details</a></li>
+       <a href="" ><i style="font-size: 30px;color: white; background-color:#11114e;width: 50px;margin-right: 20px;padding-left: 10px;" class="fa-solid fa-arrow-left"></i></a>
+      </ul>
+    </nav>
+    <table width="100%" style="text-align: center; border-spacing: px;">
+        <tr>
+            <th colspan="6" style="background-color: aqua;  font-size:18px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Payment Details</th>
+        </tr>
+        <tr class="row" style="background:grey; color: white; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; ">
+            <th>Receipt No</th>
+            <th>Date</th>
+            <th>Amount</th>
+            <th>Mode</th>
+            <th>Paid For</th>
+            <th>Paid To</th>
+        </tr>
+        <tr class="row">
+            <td>24410100101012401</td>
+            <td>12346789</td>
+            <td>12346789</td>
+            <td>Phone Pay</td>
+            <td>College Fee</td>
+            <td>A.Karthik Varma Sir</td>
+        </tr>
+        <tr class="row">
+            <td>24410100101012402</td>
+            <td>12346789</td>
+            <td>12346789</td>
+            <td>Phone Pay</td>
+            <td>College Fee</td>
+            <td>A.Karthik Varma Sir</td>
+        </tr>
+        <tr class="row">
+            <td>24410100101012403</td>
+            <td>12346789</td>
+            <td>12346789</td>
+            <td>Phone Pay</td>
+            <td>College Fee</td>
+            <td>A.Karthik Varma Sir</td>
+        </tr>
+        <tr class="row">
+            <td>24410100101012404</td>
+            <td>12346789</td>
+            <td>12346789</td>
+            <td>Phone Pay</td>
+            <td>College Fee</td>
+            <td>A.Karthik Varma Sir</td>
+        </tr>
+    </table>
+    <table width="100%"  style="text-align: center; border-spacing: px;">
+        <tr>
+            <th colspan="13" style="background-color: aqua;font-size: 18px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Final Conclusion</th>
+        </tr>
+        <tr>
+            <th class="content">Details</th>
+            <th class="Iyear" colspan="3">I Year</th>
+            <th class="IIyear" colspan="3">II Year</th>
+            <th class="IIIyear" colspan="3">III Year</th>
+            <th class="total" colspan="3">Total</th>
+        </tr>
+        <tr style="background-color: gray; color: white;">
+            <th>Particulars</th>
+            <th>Total</th>
+            <th>Paid</th>
+            <th>Balance</th>
+
+            <th>Total</th>
+            <th>Paid</th>
+            <th>Balance</th>
+
+            <th>Total</th>
+            <th>Paid</th>
+            <th>Balance</th>
+
+            <th>Total</th>
+            <th>Paid</th>
+            <th>Balance</th>   
+        </tr>
+        <tr>
+            <th align="left" class="content">College Fee</th>
+            <td class="Iyear">25000.00</td>	
+            <td class="Iyear">15000.00</td>
+            <td class="Iyear">10000.00</td>	
+            <td class="IIyear">25000.00</td>	
+            <td class="IIyear">25000.00</td>	
+            <td class="IIyear">25000.00</td>	
+            <td class="IIIyear">25000.00</td>	
+            <td class="IIIyear">25000.00</td>
+            <td class="IIIyear">25000.00</td>	
+            <td class="total">25000.00</td>	
+            <td class="total">25000.00</td>	
+            <td class="total">25000.00</td>
+        </tr>
+        <tr>
+            <th align="left" class="content">Van Fee</th>
+            <td class="Iyear">12000.00</td>
+            <td class="Iyear">12346789</td>
+            <td class="Iyear">25000.00</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIyear">25000.00</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIIyear">25000.00</td>
+            <td class="IIIyear">12346789</td>
+            <td class="IIIyear">25000.00</td>
+            <td class="total">12346789</td>
+            <td class="total">25000.00</td>
+            <td class="total">12346789</td>												
+        </tr>
+        <tr>
+            <th align="left" class="content">Hostel</th>
+            <td class="Iyear">45000.00</td>
+            <td class="Iyear">45000.00</td>
+            <td class="Iyear">45000.00</td>
+            <td class="IIyear">45000.00</td>
+            <td class="IIyear">45000.00</td>
+            <td class="IIyear">45000.00</td>
+            <td class="IIIyear">45000.00</td>
+            <td class="IIIyear">45000.00</td>
+            <td class="IIIyear">45000.00</td>
+            <td class="total">45000.00</td>
+            <td class="total">45000.00</td>
+            <td class="total">45000.00</td>												
+        </tr>
+        <tr>
+            <th align="left" class="content">Exam Fee</th>
+            <td class="Iyear">2300.00</td>
+            <td class="Iyear">2300.00</td>
+            <td class="Iyear">2300.00</td>
+            <td class="IIyear">2300.00</td>
+            <td class="IIyear">2300.00</td>
+            <td class="IIyear">2300.00</td>
+            <td class="IIIyear">2300.00</td>
+            <td class="IIIyear">2300.00</td>
+            <td class="IIIyear">2300.00</td>
+            <td class="total">2300.00</td>
+            <td class="total">12346789</td>
+            <td class="total">12346789</td>												
+        </tr>
+        <tr>
+            <th align="left" class="content">Material and Stationary</th>
+            <td class="Iyear">5000.00</td>
+            <td class="Iyear">5000.00</td>
+            <td class="Iyear">5000.00</td>
+            <td class="IIyear">5000.00</td>
+            <td class="IIyear">5000.00</td>
+            <td class="IIyear">5000.00</td>
+            <td class="IIIyear">5000.00</td>
+            <td class="IIIyear">5000.00</td>
+            <td class="IIIyear">5000.00</td>
+            <td class="total">5000.00</td>
+            <td class="total">12346789</td>
+            <td class="total">12346789</td>												
+        </tr>
+        <tr>
+            <th align="left" class="content">UDF</th>
+            <td class="Iyear">1500.00</td>
+            <td class="Iyear">1500.00</td>
+            <td class="Iyear">1500.00</td>
+            <td class="IIyear">1500.00</td>
+            <td class="IIyear">1500.00</td>
+            <td class="IIyear">1500.00</td>
+            <td class="IIIyear">1500.00</td>
+            <td class="IIIyear">1500.00</td>
+            <td class="IIIyear">1500.00</td>
+            <td class="total">1500.00</td>
+            <td class="total">12346789</td>
+            <td class="total">12346789</td>
+        </tr>
+        <tr>
+            <th align="left" class="content">Uniform Fee</th>
+            <td class="Iyear">12346789</td>
+            <td class="Iyear">12346789</td>
+            <td class="Iyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="total">12346789</td>
+            <td class="total">12346789</td>
+            <td class="total">12346789</td>												
+        </tr>
+        <tr>
+            <th align="left" class="content">Function</th>
+            <td class="Iyear">12346789</td>
+            <td class="Iyear">12346789</td>
+            <td class="Iyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="total">12346789</td>
+            <td class="total">12346789</td>
+            <td class="total">12346789</td>												
+        </tr>
+        <tr>
+            <th align="left" class="content">Fines</th>
+            <td class="Iyear">12346789</td>
+            <td class="Iyear">12346789</td>
+            <td class="Iyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="total">12346789</td>
+            <td class="total">12346789</td>
+            <td class="total">12346789</td>												
+        </tr>
+        <tr>
+            <th align="left" class="content">Others</th>
+            <td class="Iyear">12346789</td>
+            <td class="Iyear">12346789</td>
+            <td class="Iyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="IIIyear">12346789</td>
+            <td class="total">12346789</td>
+            <td class="total">12346789</td>
+            <td class="total">12346789</td>												
+        </tr>
+    </table>
+</body>
+</html>

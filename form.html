@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <title>form</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            border: 1px solid black;
+            width: 25%;
+            height: 20%;
+            margin-left: 530px;
+            margin-top: 100px;
+           border-radius: 15px;
+           background-color: #e5e5e5;
+        }
+    
+          body{
+            background-color: #f2f2f2;
+        }
+        button{
+            margin-bottom: 20px;
+            background-color: rgb(1, 1, 62);
+            color: white;
+            border: 1px solid  rgb(1, 1, 62);
+            border-radius: 5px;
+            width: 20%;
+            padding: 3px;
+        }
+        label{
+            font-size: 17px;
+            font-family: sans-serif;
+            color: rgb(1, 1, 62);
+        }
+        input{
+            width: 60%;
+            padding: 5px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border:1px solid rgb(184, 183, 183);
+            box-shadow: 0px 0px 10px  rgb(184, 183, 183);
+        }
+        h2{
+            font-family: sans-serif;
+            color: rgb(1, 1, 62);
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            background-color:#11114e;
+           position: sticky;
+            top:0px;
+         }
+        ul{ 
+            display: flex;
+            flex-direction: row;
+            height: 10%;
+        }
+        li{
+            list-style: none;
+            margin-right: 100px;
+            font-size: 20px;
+            text-align: center;  
+          
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: sans-serif;
+   
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2 style="margin-left: 50px;margin-top:10px;color: white; font-family: sans-serif;">Student Information</h2>
+      <ul>
+        <li style="margin-left: 100px;"><a href="Basic_details.html">Basic  Details</a></li>
+        <li> <a href="FeeDetails.html">Fee  Details</a></li>
+        <li><a href="project1.html">Academinc  Performance</a></li>
+        <li><a href="uniforms.html">Issued  Details</a></li>
+       <a href="" ><i style="font-size: 30px;color: white; background-color:#11114e;width: 50px;margin-right: 20px;padding-left: 10px;" class="fa-solid fa-arrow-left"></i></a>
+      </ul>
+    </nav>
+    <div class="container">
+        <h2>Please Enter</h2>
+      <form action=" ">
+        <label for="Adm_no">Admission Number</label> <br>
+        <input type="text" maxlength="25" size="20"><br><br>
+         <label for="or">(OR)</label><br><br>
+        <label for="std_name">Student Name</label> <br>
+        <input type="text" maxlength="25" size="20"><br><br>
+    <button><a  style="text-decoration: none;" href="Basic_details.html">Submit</a></button>  <button>Clear</button>
+      </form>
+    </div>
+
+</body>
+</html>
